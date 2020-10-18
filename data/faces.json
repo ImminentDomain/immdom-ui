@@ -1,0 +1,33 @@
+[
+  {
+    "name": "Paul Karayan",
+    "image": "cats.jpg",
+    "description": "Digital Warlord and DevOps Baron",
+    "tags": [
+      "python",
+      "infrastructure",
+      "devops"
+    ]
+  },
+  {
+    "name": "Brian Kruger",
+    "image": "family.jpg",
+    "description": "Bowler and metalhead",
+    "tags": [
+      "devops",
+      "networking",
+      "kubernetes"
+    ]
+  },
+  {
+    "name": "Trevor Bossert",
+    "image": "family.jpg",
+    "description": "Aspiring animal refuge owner",
+    "tags": [
+      "og",
+      "devops",
+      "ci/cd",
+      "kubernetes"
+    ]
+  }
+]

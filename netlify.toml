@@ -1,0 +1,11 @@
+[build]
+  publish = "public"
+  command = "npm run build"
+  functions = "functions"
+
+# Redirects
+[[redirects]]
+  from = "/add"
+  to = "/add-example"
+  status = 301
+  force = true
