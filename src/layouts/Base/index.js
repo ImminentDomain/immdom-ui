@@ -14,7 +14,7 @@ export default class Base extends React.Component {
     if (noIcon) {
       corner = null
     } else {
-      corner = <GitHubCorner url='https://github.com/PrimerAI/faces' />
+      corner = <GitHubCorner url='https://github.com/ImminentDomain/immdom-ui' />
     }
     return (
       <div className={className}>

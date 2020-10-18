@@ -1,6 +1,6 @@
 # The GUI of Immdom
 
-<3 from PK
+<3 from PK aka the Wizard of Ashpool
 
 The code is heavily borrowed from
 https://github.com/netlify-labs/functions-site

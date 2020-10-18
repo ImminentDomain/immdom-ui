@@ -12,11 +12,11 @@ const defaultSidebar = () => {
   const links = [
     {
       url: '/',
-      text: 'Meet the Primates'
+      text: 'Search the Catalogue'
     },
     {
-      url: 'https://github.com/PrimerAI/faces',
-      text: 'Update the Faces'
+      url: 'https://github.com/ImminentDomain/immdom-ui',
+      text: 'Update the Catalogue'
     }
   ]
 
@@ -44,7 +44,8 @@ const Sidebar = ({ children }) => {
       <div className={styles.sidebarFixed}>
         <div className={styles.sidebarInner}>
           <Link to='/'>
-            <Logo />
+            Immdom Logo Goes Here
+            {/* <Logo /> */}
           </Link>
           <nav className={styles.links}>
             {children || defaultSidebar()}

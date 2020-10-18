@@ -200,7 +200,7 @@ export default class Grid extends React.Component {
             <div style={{ marginBottom: 10 }}>
               <SearchBox
                 id={searchInputId}
-                placeholder='Search primates'
+                placeholder='Search for functions'
                 onChange={this.handleFilterInput}
                 onKeyDown={this.handleKeyDown}
               />

@@ -1,4 +1,4 @@
-import data from '../../data/faces.json'
+import data from '../../data/functions.json'
 
 const tags = data.reduce((acc, curr) => {
   if (curr.tags) {
