@@ -1,6 +1,11 @@
-# The Faces of Primer
+# The GUI of Immdom
 
 <3 from PK
+
+The code is heavily borrowed from
+https://github.com/netlify-labs/functions-site
+and I am incredibly grateful that the Author(s) made it
+available to us. Thank you @DavidWells and Netlify.
 
 ## Install
 
@@ -14,8 +19,4 @@ npm install
 npm start
 ```
 
-## Adding a new Primate
-
-Update the [data/faces.json](./data/faces.json) to add a new Primate and their picture.
-
-Use all lowercase for the tags as it's case sensitive.
+## Adding a new Function / Part / Whatever
