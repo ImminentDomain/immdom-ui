@@ -134,7 +134,7 @@ export default class Grid extends React.Component {
         return true
       }
 
-      const { name, description, tags, image } = example
+      const { name, description, tags } = example
       if (
         matchText(search, name) ||
         matchText(search, description) ||
@@ -157,9 +157,9 @@ export default class Grid extends React.Component {
               {example.name}
             </a>
           </div>
-          <div className={styles.itemImage}>
+          {/* <div className={styles.itemImage}>
             <img src={`/images/${example.image}`} alt="profile image" height="300" object-fit = "contain;" />
-          </div>
+          </div> */}
           <div className={styles.itemDescription}>
             {example.description}
           </div>

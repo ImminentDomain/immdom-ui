@@ -179,7 +179,7 @@ pre > code.highlight {
   box-shadow: 0 0 0 2px $primary !important;
 }
 .select__option--is-focused, .select__multi-value {
-  background-color: #00ad9f !important;
+  background-color: #3498db !important;
   color: #fff !important;
 }
 .select__multi-value__label {

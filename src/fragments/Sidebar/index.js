@@ -44,8 +44,7 @@ const Sidebar = ({ children }) => {
       <div className={styles.sidebarFixed}>
         <div className={styles.sidebarInner}>
           <Link to='/'>
-            Immdom Logo Goes Here
-            {/* <Logo /> */}
+          <img src={'/images/thinker.png'} alt="profile image" height="200" object-fit = "contain;" />
           </Link>
           <nav className={styles.links}>
             {children || defaultSidebar()}
