@@ -1,33 +1,53 @@
+
 [
   {
-    "name": "Paul Karayan",
-    "image": "cats.jpg",
-    "description": "Digital Warlord and DevOps Baron",
-    "tags": [
-      "python",
-      "infrastructure",
-      "devops"
-    ]
+      "title": "Figlet",
+      "name": "figlet",
+      "description": "Generate ASCII logos with the figlet CLI",
+      "images": {
+          "armhf": "functions/figlet:latest-armhf",
+          "x86_64": "functions/figlet:0.13.0"
+      },
+      "fprocess": "figlet",
+      "repo_url": "https://github.com/openfaas/faas/tree/master/sample-functions/figlet",
+      "tags": [
+        "cli", "golang", "ascii"
+      ]
   },
   {
-    "name": "Brian Kruger",
-    "image": "family.jpg",
-    "description": "Bowler and metalhead",
-    "tags": [
-      "devops",
-      "networking",
-      "kubernetes"
-    ]
+      "title": "Hello Python - basic like pumpkin spice",
+      "name": "hello-python",
+      "description": "This is Paul's test function",
+      "images": {
+          "x86_64": "paulkarayan/hello-python:latest"
+      },
+      "repo_url": "https://github.com/ImminentDomain/function-store/functions/hello-python",
+      "tags": [
+        "python", "basic"
+      ]
   },
   {
-    "name": "Trevor Bossert",
-    "image": "family.jpg",
-    "description": "Aspiring animal refuge owner",
-    "tags": [
-      "og",
-      "devops",
-      "ci/cd",
-      "kubernetes"
-    ]
+      "title": "Send an Email with Mailgun",
+      "name": "send-mailgun-email",
+      "description": "Send an Email with Mailgun",
+      "images": {
+          "x86_64": "paulkarayan/send-mailgun-email:latest"
+      },
+      "repo_url": "https://github.com/ImminentDomain/function-store/functions/send-mailgun-email",
+      "tags": [
+        "python", "email", "mailgun"
+      ]
+  },
+  {
+      "title": "Python Secret - demonstrates you can have secrets",
+      "name": "hello-python",
+      "description": "demonstrates you can have secrets",
+      "images": {
+          "x86_64": "paulkarayan/python-secret:latest"
+      },
+      "repo_url": "https://github.com/ImminentDomain/function-store/functions/python-secret",
+      "tags": [
+        "python", "basic", "secrets", "credentials"
+      ]
   }
 ]
