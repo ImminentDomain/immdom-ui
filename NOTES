@@ -8,4 +8,6 @@ npm install -g gatsby-cli
 npm install -g gh-pages
 gatsby build && gh-pages -d public -b master
 
-git remote add origin https://imminentdomain.github.com/immdo-ui
+# git remote add origin https://imminentdomain.github.com/immdom-ui
+
+npm run deploy
