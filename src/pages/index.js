@@ -52,7 +52,7 @@ export default class Index extends React.Component {
         <a href='https://www.immdom.com' target="_blank" rel="noopener noreferrer">Back to main Immdom Site</a>
         </nav>
         <nav className={styles.links}>
-        <a href='https://github.com/ImminentDomain/function-store' target="_blank" rel="noopener noreferrer">Back to main Immdom Site</a>
+        <a href='https://github.com/ImminentDomain/function-store' target="_blank" rel="noopener noreferrer">Add a New Part</a>
         </nav>
         <div className={styles.tagWrapper}>
           <h3>Browse by tag</h3>
