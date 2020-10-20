@@ -11,3 +11,5 @@ gatsby build && gh-pages -d public -b master
 # git remote add origin https://imminentdomain.github.com/immdom-ui
 
 npm run deploy
+
+gco gh_pages

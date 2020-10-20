@@ -49,14 +49,10 @@ export default class Index extends React.Component {
     return (
       <div>
         <nav className={styles.links}>
-          <Link to='https://www.immdom.com'>
-            Back to main Immdom Site
-          </Link>
+        <a href='https://www.immdom.com' target="_blank" rel="noopener noreferrer">Back to main Immdom Site</a>
         </nav>
         <nav className={styles.links}>
-          <Link to='https://github.com/ImminentDomain/function-store'>
-            Add a function or part to Function Store
-          </Link>
+        <a href='https://github.com/ImminentDomain/function-store' target="_blank" rel="noopener noreferrer">Back to main Immdom Site</a>
         </nav>
         <div className={styles.tagWrapper}>
           <h3>Browse by tag</h3>
