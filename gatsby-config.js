@@ -17,7 +17,8 @@ const postcssPlugins = (webpackInstance) => {
 }
 
 module.exports = {
-  pathPrefix: config.pathPrefix,
+  // pathPrefix: config.pathPrefix,
+  pathPrefix: "/immdom-ui",
   siteMetadata: {
     siteUrl: urljoin(config.siteUrl, config.pathPrefix),
     rssMetadata: {

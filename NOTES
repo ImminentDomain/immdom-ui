@@ -1,2 +1,11 @@
 npm install
 npm start
+
+-- deploy to github pages
+https://www.gatsbyjs.com/docs/how-gatsby-works-with-github-pages/
+
+npm install -g gatsby-cli
+npm install -g gh-pages
+gatsby build && gh-pages -d public -b master
+
+git remote add origin https://imminentdomain.github.com/immdo-ui
