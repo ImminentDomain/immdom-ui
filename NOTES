@@ -13,3 +13,8 @@ gatsby build && gh-pages -d public -b master
 npm run deploy
 
 gco gh_pages
+
+
+git branch -D gh-pages
+gcob gh-pages
+npm run deploy
